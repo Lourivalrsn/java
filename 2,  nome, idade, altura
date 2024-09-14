@@ -1,0 +1,19 @@
+import javax.swing.*;
+
+public class Main {
+    public static void main(String[] args) {
+
+        String name = JOptionPane.showInputDialog("qual é seu nome");
+        JOptionPane.showMessageDialog(null, "iai "+name);
+
+        int age = Integer.parseInt(JOptionPane.showInputDialog("enre com sua idade"));
+        JOptionPane.showMessageDialog(null, "voce tem: "+age);
+
+        double height = Double.parseDouble(JOptionPane.showInputDialog("enre com sua altura"));
+        JOptionPane.showMessageDialog(null, "voce tem: "+height+"cm normal");
+
+
+    }
+
+
+    }
